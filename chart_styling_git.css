@@ -1,0 +1,208 @@
+/* Chart And Display Styling */
+/* 1-16-2022 v1.0.0 */
+/* Aaron I. Clay */
+
+
+body
+			{
+				background-color: #b8d4ac;
+				opacity:1.0;
+			}
+.rawData_wrap
+			{
+				position:fixed;
+				left:25px;
+				top:40px;
+				height:471px;
+				width:512px;
+				border-style:solid;
+				border-width:0px;
+				border-color:black;
+				overflow:scroll;
+				background-color:white;
+				border-radius:2px;
+				box-shadow:2px 3px 3px grey;
+			}
+.tblRaw
+			{
+				position:relative;
+				left:0px;
+				top:0px;
+				background-color:white;
+				font-family:"Lucida Console', mono-space;
+				font-weight:normal;
+				color:black;
+				font-size:8px;
+				width:499px;
+				height:392px;
+				margin:1px;
+				border-style:solid;
+				border-top-color:white;
+				border-left-color:white;
+				border-right-color:white;
+				border-bottom-color:white;
+				border-width:0.5px;
+				border-radius:3px;
+				padding-top:15px;
+			}
+			
+tr:hover
+			{
+				background-color: hsl(120,45%,85%);
+			}
+td:hover
+			{	
+				font-weight:bold;
+				font-size:14px;
+				color: hsl(120,45%,25%);
+				text-shadow:1px 1px 1px grey;
+			}
+tr:nth-of-type(2n) /* Even */
+			{
+				/* HSL : h(int),sat(%),light(%) */
+				background-color: hsl(120,45%,66%);
+				opacity:1.0;
+			}
+tr:nth-of-type(2n+1) /* n+1 == Odd */
+			{
+				background-color:white;
+				opacity:1.0;
+			}
+th
+			{
+				font-family:"Verdana",sans-serif;
+				font-weight:bold;
+				font-size:12px;
+				border-style:solid;
+				border-left-width:0px;
+				border-right-width:1px;
+				border-right-color: hsl(120,45%,66%);
+				border-top-width:0px;
+				border-bottom-width:1px;
+				border-bottom-color: hsl(120,45%,66%);
+			}
+td
+			{
+				border-style:solid;
+				border-left-width:0.5px;
+				border-left-color: hsl(120,45%,66%);
+				border-top-width:0px;
+				border-right-width:0px;
+				border-bottom-width:0px;
+			}
+th
+			{
+				border-style:solid;
+				border-left-width:0px;
+				border-left-color: hsl(120,45%,66%);;
+				border-top-width:0px;
+				border-right-width:0px;
+				border-bottom-width:0.5px;
+			}
+			
+			/* Chart 1 */ 
+.chart1_tOpen_wrap
+			{
+				position:fixed;
+				border-style:solid;
+				left:551px;
+				top:40px;
+				border-width:0px;
+				border-color:black;
+				background-color:white;
+				height:240px;
+				width:300px;
+				box-shadow:2px 3px 3px grey;
+				
+			}
+.chart2_tOpen_chart
+			{
+			}
+			/* End Chart 1 */
+			
+			/* Chart 2 */
+.chart2_tClose_wrap
+			{
+			
+				position:fixed;
+				border-style:solid;
+				left:861px;
+				top:40px;
+				border-width:0px;
+				border-color:black;
+				background-color:white;
+				height:240px;
+				width:300px;	
+				box-shadow:2px 3px 3px grey;
+				
+			}
+			
+			/* End Chart 2 * /
+			
+			/* Chart 3 */
+.chart3_tHigh_wrap
+			{
+				position:fixed;
+				border-style:solid;
+				left:551px;
+				top:290px;
+				border-width:0px;
+				border-color:black;
+				background-color:white;
+				height:220px;
+				width:300px;
+				box-shadow:2px 3px 3px grey;
+			}
+			
+			
+			/* End Chart 3 */
+			
+			/* Chart 4 */
+.chart4_tClose_wrap
+			{
+			
+				position:fixed;
+				border-style:solid;
+				left:861px;
+				top:290px;
+				border-width:0px;
+				border-color:black;
+				background-color:white;
+				height:220px;
+				width:300px;	
+				box-shadow:2px 3px 3px grey;
+			}
+			
+			
+			/* End Chart 4 */
+			
+.dataSauce
+			{
+				position:fixed;
+				bottom: 20px;
+				left:10px;
+				font-family:"Tahoma", sans-serif;
+				color:black;
+				font-size:0.65em;
+			}
+			
+.rwCap
+			{
+				font-family:"Tahoma", sans-serif;
+				font-size:1.3em;
+				color:black;
+				position:fixed;
+				left:185px;
+				top:13px;
+			
+			}
+			
+.catS
+			{
+				font-family:"Tahoma", sans-serif;
+				font-size:1.3em;
+				color:black;
+				position:fixed;
+				left:715px;
+				top:13px;
+			}
